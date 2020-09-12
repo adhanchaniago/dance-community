@@ -128,7 +128,7 @@ if(isset($_GET['sts'])&& $_GET['id']!=''){
     $_SESSION['msg'] = $msg;
     header('Location:../?pendaftar');
 }
-if (isset($_GET['id'])!="") {
+if (isset($_GET['hapus'])&& $_GET['id']!='') {
     $id = $_GET['id'];
     $cek = mysqli_fetch_array(mysqli_query($con,"SELECT foto FROM pendaftar WHERE idpendaftar='$id'")) or die(mysqli_error($con));
     if($cek['foto']!=''){

@@ -76,7 +76,7 @@
                                             <a href="<?=$base_url;?>?ubah&id=<?=$row['idpendaftar'];?>"
                                                 class="btn btn-xs btn-info" data-toggle="tooltip" data-placement="top"
                                                 title="Ubah"><i class="fa fa-edit"></i></a>
-                                            <a href="<?=$base_url;?>proses/pendaftar.php?id=<?=$row['idpendaftar'];?>"
+                                            <a href="<?=$base_url;?>proses/formulir.php?hapus&id=<?=$row['idpendaftar'];?>"
                                                 class="btn btn-xs btn-danger" data-toggle="tooltip" data-placement="top"
                                                 title="Hapus"><i class="fa fa-trash-o"></i></a>
                                         </td>

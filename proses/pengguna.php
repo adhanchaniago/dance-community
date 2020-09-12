@@ -70,7 +70,7 @@ if($_GET['act']=='sts' && isset($_GET['id'])!=""){
     $_SESSION['msg'] = $msg;
     header('Location:../?sett_pengguna');
 }
-if ($_GET['sts'] && isset($_GET['id'])!="") {
+if ($_GET['act']=='del' && isset($_GET['id'])!="") {
     $id = $_GET['id'];
     $query = mysqli_query($con, "DELETE FROM users WHERE idusers='$id'")or die(mysqli_error($con));
     if ($query) {
