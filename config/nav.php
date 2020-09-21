@@ -28,7 +28,7 @@
                             <!-- <li <?=isset($sett_umum)?'class="active"':'';?>><a href="<?=$base_url;?>?sett_umum"><i
                                         class="fa fa-cogs"></i> Umum</a></li> -->
                             <li <?=isset($sett_slide)?'class="active"':'';?>><a href="<?=$base_url;?>?sett_slide"><i
-                                        class="fa fa-picture-o"></i> Slide</a></li>
+                                        class="fa fa-picture-o"></i> Dokumentasi</a></li>
                             <li <?=isset($sett_info)?'class="active"':'';?>><a href="<?=$base_url;?>?sett_informasi"><i
                                         class="fa fa-info-circle"></i> Informasi</a>
                             </li>
